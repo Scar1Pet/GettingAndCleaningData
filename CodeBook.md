@@ -10,7 +10,7 @@ Original Data Source:
 Original Data Description: 
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-An R script was generated (`run_analysis.R`) to accomplish the specific course instructions: 
+An R script was generated, `run_analysis.R`, to accomplish the specific course instructions: 
 
 1: Merge the training and the test sets to create one data set.
 2: Extract only the measurements on the mean and standard deviation for each measurement.
