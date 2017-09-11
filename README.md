@@ -12,5 +12,5 @@ Script will download original data, unzip, merge datafiles, run analysis, genera
 #### CodeBook.md
 Describes the R script, rationale and implementation notes, as well as generated variables.
 
-#### course3week4project.csv
-Comma-separated data file, the final output generated for this project. This is the result of the merged test and training datasets which includes the mean for each of the mean and standard deviations variables in the merged dataset by Subject and Activity.
+#### course3week4project.txt
+Space-delimited data file, created using the write.table function in R. This is the final output generated for this project. This is the result of the merged test and training datasets which includes the mean for each of the mean and standard deviations variables in the merged dataset by Subject and Activity.
