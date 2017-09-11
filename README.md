@@ -1,4 +1,4 @@
-# Coursera: Getting and Cleaning Data
+# Getting and Cleaning Data
 ## Course Project: Week 4 Peer Review Assignment
 ## Project By: Peter Scarbrough
 
