@@ -47,8 +47,8 @@ In order to make it easier to review and understand my work, I tried to organize
 
 ### Output
 
-`course3week4project.csv`
-* Comma-separated dataset
+`course3week4project.txt`
+* Space-delimited dataset, created using the write.table function in R, with row.names = F
 * This is a tidy dataset (e.g. each row an observation, each column a single variable)
 * The first column is Subject by ID  
 * The second column is Activity by factor label  
