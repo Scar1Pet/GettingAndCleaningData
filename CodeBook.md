@@ -26,6 +26,8 @@ The original data files were a mess -- I have no idea why the subject and activi
 
 The `downloader` library was used to more easily unzip the original data files. A working directory "peerproject" is created by the script, all work is performed here and the output file is generated in this directory. The code reads the data files, merges the subject and activity variables to the test or training datasets. Then, the test and training datasets are merged. The activity codes are translated into factor labels. The merged dataset is then trimmed to only include variables that are means or standard deviations (in addition to Subject and Activity variables). Then, the variables are renamed -- please consult the source code for a more direct explanation -- the code itself is more self-explanatory and interpretable than an abstract explanation of what I did or why. Then, the `dplyr` library is used to group the merged data.frame by Subject and Activity. The means for each of the columns are then calculated, and finally the results are output into `course3week4project.csv`
 
+In order to make it easier to review and understand my work, I tried to organize and structure the code into discrete "parts" with extensive comments, to make it more explicit for how my activities are fulfilling the different directives of this assignment.
+
 ### Variables
 
 * activityfactor -- factor to convert activity codes into activity labels  
