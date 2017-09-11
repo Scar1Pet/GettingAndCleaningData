@@ -1,10 +1,4 @@
-# Code Book
-
-## For Course: Getting and Cleaning Data
-## Course Project: Week 4 Peer Review Assignment
-## Project By: Peter Scarbrough
-
-
+## Code Book -- Getting and Cleaning Data: Week 4 Peer Review Assignment
 
 ### Overview
 
@@ -32,8 +26,6 @@ The original data files were a mess -- I have no idea why the subject and activi
 
 The downloader library was used to more easily unzip the original data files. A working directory "peerproject" is created by the script, all work is performed here and the output file is generated in this directory. The code reads the data files, merges the subject and activity variables to the test or training datasets. Then, the test and training datasets are merged. The activity codes are translated into factor labels. The merged dataset is then trimmed to only include variables that are means or standard deviations (in addition to Subject and Activity variables). Then, the variables are renamed -- please consult the source code for a more direct explanation -- the code itself is more self-explanatory and interpretable than an abstract explanation of what I did or why. Then, the dplyr library is used to group the merged data.frame by Subject and Activity. The means for each of the columns are then calculated, and finally the results are output into `course3week4project.csv`
 
-
-
 ### Variables
 
 ..* activityfactor -- factor to convert activity codes into activity labels
@@ -50,9 +42,6 @@ The downloader library was used to more easily unzip the original data files. A 
 ..* trainsubject -- training data subject variable, from `train/subject_test.txt`, to be appended to traindata
 ..* url -- character vector containing path to original data file
 ..* variablenames -- character vector of variable names for datasets, taken from `features.txt`  
-
-
-
 
 ### Output
 
