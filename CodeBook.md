@@ -46,7 +46,8 @@ The `downloader` library was used to more easily unzip the original data files. 
 ### Output
 
 `course3week4project.csv`
-* comma-separated dataset  
+* Comma-separated dataset
+* This is a tidy dataset (e.g. each row an observation, each column a single variable)
 * The first column is Subject by ID  
 * The second column is Activity by factor label  
 * The next 66 columns are means for each of the indicated variables, by Subject and Activity  
