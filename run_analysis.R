@@ -110,4 +110,4 @@ names(tidy.result)[1:2] <- c("Subject", "Activity")
 
 # Create an output file of the tidy data for review
 setwd("../")
-write.csv(tidy.result, "course3week4project.csv", row.names=F)
+write.table(tidy.result, "course3week4project.txt", row.names=F)
