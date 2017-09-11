@@ -1,5 +1,4 @@
 # Getting and Cleaning Data: Week 4 Peer Review Assignment
-## Project By: Peter Scarbrough
 
 This repository stores the R script, codebook, and data output for the "Getting and Cleaning Data" Cousera course, Week 4, Peer Review Assignment.
 
